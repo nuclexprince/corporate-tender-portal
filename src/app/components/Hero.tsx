@@ -137,7 +137,7 @@ const HeroCarousel: React.FC = () => {
                       border: `1.5px solid ${svc.accent}`,
                     }}
                   >
-                    <Icon size={24} style={{ color: svc.accent }} />
+                    <Icon size={24} style={{ color: "limegreen" }} />
                   </div>
 
                   {isActive && (
