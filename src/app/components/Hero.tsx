@@ -276,21 +276,25 @@ export const Hero: React.FC = () => {
         }}
       />
 
-      {/* Soft radial glows */}
-      <div
-        className="absolute top-0 left-0 w-[700px] h-[700px] rounded-full pointer-events-none"
-        style={{
-          background: 'radial-gradient(circle, rgba(255,140,66,0.25) 0%, transparent 70%)',
-          transform: 'translate(-30%, -30%)',
-        }}
-      />
-      <div
-        className="absolute bottom-0 right-0 w-[500px] h-[500px] rounded-full pointer-events-none"
-        style={{
-          background: 'radial-gradient(circle, rgba(255,184,140,0.15) 0%, transparent 70%)',
-          transform: 'translate(30%, 30%)',
-        }}
-      />
+   {/* Soft radial glows */}
+
+/* Green glow (top-left) */
+<div
+  className="absolute top-0 left-0 w-[700px] h-[700px] rounded-full pointer-events-none"
+  style={{
+    background: 'radial-gradient(circle, rgba(34,197,94,0.18) 0%, transparent 70%)',
+    transform: 'translate(-30%, -30%)',
+  }}
+/>
+
+/* Blue glow (bottom-right) */
+<div
+  className="absolute bottom-0 right-0 w-[500px] h-[500px] rounded-full pointer-events-none"
+  style={{
+    background: 'radial-gradient(circle, rgba(59,130,246,0.12) 0%, transparent 70%)',
+    transform: 'translate(30%, 30%)',
+  }}
+/>
 
       {/* Professional Workspace Image - Background decoration */}
       <motion.div
