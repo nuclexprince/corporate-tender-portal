@@ -406,6 +406,16 @@ export const Hero: React.FC = () => {
 
       {/* ── Content ── */}
       <div className="relative z-10 flex-1 flex flex-col lg:flex-row items-center max-w-[1200px] mx-auto w-full px-6 pt-16 pb-10 gap-10 lg:gap-6">
+        
+
+  {/* 🔴 TEST BLOCK */}
+  <div style={{ background: "red", height: "100px", width: "100%" }}>
+    TEST BLOCK
+  </div>
+
+  {/* LEFT — Text & Search */}
+  <div className="flex-1 text-white flex flex-col justify-center">
+  </div>
 
         {/* LEFT — Text & Search */}
         <div className="flex-1 text-white flex flex-col justify-center">
