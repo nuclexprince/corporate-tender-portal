@@ -14,38 +14,37 @@ const SERVICES = [
     title: 'GeM Registration',
     slug: 'gem-registration',
     desc: 'Seamless onboarding & catalog setup on Government e-Marketplace.',
-    accent: '#FFB88C',
+    accent: '#0F6D3F',
   },
   {
     icon: FileText,
     title: 'Tender Bidding',
     slug: 'tender-bidding',
     desc: 'Expert document prep & compliance review for winning bids.',
-    accent: '#FFA366',
+    accent: '#2F80ED',
   },
-  {
+   {
     icon: Send,
     title: 'OEM Panel Setup',
     slug: 'oem-panel',
     desc: 'OEM authorization & panel management on GeM portal.',
-    accent: '#FFD4B8',
+    accent: '#157347',
   },
-  {
+ {
     icon: Zap,
     title: 'Catalogue Management',
     slug: 'catalogue-management',
     desc: 'Professional product listing & profile optimization.',
-    accent: '#FFB080',
+    accent: '#0F6D3F',
   },
   {
     icon: GraduationCap,
     title: 'Training Services',
     slug: 'training',
     desc: 'Comprehensive GeM & tender bidding training programmes.',
-    accent: '#FF9A5C',
+    accent: '#2F80ED',
   },
 ];
-
 /* ─── 3-D offset helper ───────────────────────────────────── */
 function getOffset(idx: number, active: number, total: number) {
   let o = idx - active;
