@@ -275,9 +275,9 @@ export const Hero: React.FC = () => {
         }}
       />
 
-   {/* Soft radial glows */}
+{/* Soft radial glows */}
 
-/* Green glow (top-left) */
+{/* Green glow (top-left) */}
 <div
   className="absolute top-0 left-0 w-[700px] h-[700px] rounded-full pointer-events-none"
   style={{
@@ -286,7 +286,7 @@ export const Hero: React.FC = () => {
   }}
 />
 
-/* Blue glow (bottom-right) */
+{/* Blue glow (bottom-right) */}
 <div
   className="absolute bottom-0 right-0 w-[500px] h-[500px] rounded-full pointer-events-none"
   style={{
@@ -372,7 +372,7 @@ export const Hero: React.FC = () => {
             ease: "easeInOut"
           }}
         >
-          <ShieldCheck size={100} style={{ color:accent: '#22c55e' }} />
+         <ShieldCheck size={100} style={{ color: '#22c55e' }} />
         </motion.div>
       </motion.div>
 
