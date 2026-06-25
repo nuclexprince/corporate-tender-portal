@@ -372,7 +372,7 @@ export const Hero: React.FC = () => {
             ease: "easeInOut"
           }}
         >
-          <ShieldCheck size={100} style={{ color: '#FF8C42' }} />
+          <ShieldCheck size={100} style={{ color:accent: '#22c55e' }} />
         </motion.div>
       </motion.div>
 
